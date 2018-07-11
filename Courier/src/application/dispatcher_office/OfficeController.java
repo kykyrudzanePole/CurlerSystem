@@ -32,7 +32,7 @@ public class OfficeController {
 					callsRegistration_button.getScene().getWindow().hide();
 					
 					FXMLLoader loader = new FXMLLoader();
-					loader.setLocation(getClass().getResource("/application.dispatcher_office/OfficeView.fxml"));
+					loader.setLocation(getClass().getResource("/application/calls_registration/RegistrationView.fxml"));
 					
 					try {
 						loader.load();

@@ -57,7 +57,7 @@ public void loginUser(String id, String pass){
        if(counter>=1){
            button.getScene().getWindow().hide();
            FXMLLoader loader = new FXMLLoader();
-           loader.setLocation(getClass().getResource("/application/calls_registration/RegistrationView.fxml"));
+           loader.setLocation(getClass().getResource("/application/dispatcher_office/OfficeView.fxml"));
            try {
                loader.load();
            } catch (IOException e) {
