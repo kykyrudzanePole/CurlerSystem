@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="529.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.dispatcher_office.OfficeController">
+   <children>
+      <AnchorPane layoutX="118.0" prefHeight="529.0" prefWidth="482.0" style="-fx-background-color: #FFFACD;">
+         <children>
+            <Label alignment="CENTER" layoutX="128.0" layoutY="7.0" prefHeight="52.0" prefWidth="224.0" text="Order Table">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="529.0" prefWidth="118.0" style="-fx-background-color: #6495ED;">
+         <children>
+            <Button fx:id="changeOffice_button" alignment="CENTER" layoutX="8.0" layoutY="14.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="103.0" style="-fx-border-color: black;" text="Change&#10;Office" textAlignment="CENTER" textOverrun="CLIP" />
+            <Button fx:id="callsRegistration_button" alignment="CENTER" layoutX="6.0" layoutY="78.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="103.0" style="-fx-border-color: black;" text="Registration&#10;Calls" textAlignment="CENTER" textOverrun="CLIP" />
+            <Button fx:id="curlers_button" alignment="CENTER" layoutX="8.0" layoutY="146.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="103.0" style="-fx-border-color: black;" text="Curlers" textAlignment="CENTER" textOverrun="CLIP" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
